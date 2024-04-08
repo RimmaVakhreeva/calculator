@@ -1,5 +1,7 @@
 def add(x, y):
     """Add Function"""
+    if x == 0 or y == 0:
+        print("One of the numbers is zero")
     print("Adding two numbers")
     return x + y
 
