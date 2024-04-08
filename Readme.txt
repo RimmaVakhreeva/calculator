@@ -12,15 +12,15 @@ Instructions:
 
 2. Navigate to the project directory:
    Change the directory to where your project is located using the cd command.
-   cd path/to/calculator_app
+   `cd path/to/calculator_app`
 
 3. Make sure the build script is executable:
    If you haven't already, change the permissions of the build script to make it executable.
-   chmod +x build_and_test.sh
+   `chmod +x build_and_test.sh`
 
 4. Run the build script:
    Execute the build script by typing the following command:
-   ./build_and_test.sh
+   `./build_and_test.sh'`
 
 The script will first run all unit tests. If the tests pass, it will then create a source distribution and a wheel for the project, which you can find in the dist/ directory.
 
