@@ -20,7 +20,7 @@ Instructions:
 
 4. Run the build script:
    Execute the build script by typing the following command:
-   `./build_and_test.sh'`
+   `./build_and_test.sh`
 
 The script will first run all unit tests. If the tests pass, it will then create a source distribution and a wheel for the project, which you can find in the dist/ directory.
 
